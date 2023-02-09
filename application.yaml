@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/samer955/argocd-config-login.git
     targetRevision: HEAD
-    path: dev
+    path: dev/deployment.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
