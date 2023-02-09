@@ -4,7 +4,7 @@ metadata:
   name: argocd-login-app
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: ghcr.io/samer955/go-login-cicd:1.0.55
+    argocd-image-updater.argoproj.io/image-list: ghcr.io/samer955/go-login-cicd:1.0.54
 spec:
   project: default
 
