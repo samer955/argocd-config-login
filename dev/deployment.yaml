@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: go-login
-  annotations:
-    argocd-image-updater.argoproj.io/image-list: ghcr.io/samer955/go-login-cicd:1.0.55
 spec:
   selector:
     matchLabels:
