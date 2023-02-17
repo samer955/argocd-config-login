@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: go-login
-        image: ghcr.io/samer955/go-login-cicd:1.0.56
+        image: ghcr.io/samer955/go-login-cicd:1.0.61
         ports:
         - containerPort: 8080
 ---
